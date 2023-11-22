@@ -19,7 +19,7 @@ def help_pannel(_, START: Union[bool, int] = None):
             url=f"https://t.me/Shalini_shalu_69",
         ),
         InlineKeyboardButton(
-            text="ᴄʟᴏsᴇ", callback_data=f"close"
+            text="🔱ᴄʟᴏsᴇ🔱", callback_data=f"close"
         ),
     ]
     mark = second if START else first
