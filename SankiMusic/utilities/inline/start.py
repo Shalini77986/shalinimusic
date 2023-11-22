@@ -8,7 +8,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="≽ ᴄᴏᴍᴍᴀɴᴅs ≼",
+                text="✴️ᴄᴏᴍᴍᴀɴᴅs✴️",
                 url=f"https://t.me/{BOT_USERNAME}?start=help",
             )
         ],
@@ -31,13 +31,13 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="Ꮥʜꫝʟɪɴɪ",
+                text="💖Ꮥʜꫝʟɪɴɪ💖",
                 url=f"https://t.me/Shalini_shalu_69",
             )
         ],
         [
             InlineKeyboardButton(
-                text="❀⋟ ʜᴇʟᴘ ⋞❀", callback_data="settings_back_helper"
+                text="🧐ʜᴇʟᴘ🧐", callback_data="settings_back_helper"
             )
         ],
         [
