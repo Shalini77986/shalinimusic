@@ -65,11 +65,11 @@ autoclean = []
 ############################
 
 START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/11571bb43ae7dde935a87.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://telegra.ph/file/3ba4d42345099f58996b1.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://telegra.ph/file/48a84e0bf6223ce724632.jpg")
 
-PLAYLIST_IMG_URL = "https://telegra.ph/file/3917cabe542810b8fbd3a.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/f195293a52dafc9976457.jpg"
 GLOBAL_IMG_URL = "https://telegra.ph/file/93e7a0e36c2582c917a5d.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/93e7a0e36c2582c917a5d.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/4a6d9f4f3c3af2870451e.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/93e7a0e36c2582c917a5d.jpg"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 STREAM_IMG_URL = "https://telegra.ph/file/3917cabe542810b8fbd3a.jpg"
@@ -103,7 +103,7 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "SankiMusic/resource/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://telegra.ph/file/3ba4d42345099f58996b1.jpg"
+            PING_IMG_URL = "https://telegra.ph/file/48a84e0bf6223ce724632.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "SankiMusic/resource/Ping.jpeg":
