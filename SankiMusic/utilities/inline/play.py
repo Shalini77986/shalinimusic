@@ -44,25 +44,25 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="𝐏𝐚𝐮𝐬𝐞",
+                text="ᴘᴀᴜsᴇ",
                 callback_data=f"ADMIN Pause|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="𝐑𝐞𝐬𝐮𝐦𝐞",
+                text="ʀᴇsᴜᴍᴇ",
                 callback_data=f"ADMIN Resume|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="𝐒𝐤𝐢𝐩",
+                text="sᴋɪᴘ",
                 callback_data=f"ADMIN Skip|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="𝐒𝐭𝐨𝐩",
+                text="sᴛᴏᴘ",
                 callback_data=f"ADMIN Stop|{chat_id}",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="➕ ᴩʟᴀʏʟɪsᴛ ➕",
+                text="💖 ᴩʟᴀʏʟɪsᴛ 💖",
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
@@ -114,25 +114,25 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="𝐏𝐚𝐮𝐬𝐞",
+                text="ᴘᴀᴜsᴇ",
                 callback_data=f"ADMIN Pause|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="𝐑𝐞𝐬𝐮𝐦𝐞",
+                text="ʀᴇsᴜᴍᴇ",
                 callback_data=f"ADMIN Resume|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="𝐒𝐤𝐢𝐩",
+                text="sᴋɪᴘ",
                 callback_data=f"ADMIN Skip|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="𝐒𝐭𝐨𝐩",
+                text="sᴛᴏᴘ",
                 callback_data=f"ADMIN Stop|{chat_id}",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="➕ ᴩʟᴀʏʟɪsᴛ ➕",
+                text="💖 ᴩʟᴀʏʟɪsᴛ 💖",
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
@@ -153,25 +153,25 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
          [
             InlineKeyboardButton(
-                text="𝐏𝐚𝐮𝐬𝐞",
+                text="ᴘᴀᴜsᴇ",
                 callback_data=f"ADMIN Pause|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="𝐑𝐞𝐬𝐮𝐦𝐞",
+                text="ʀᴇsᴜᴍᴇ",
                 callback_data=f"ADMIN Resume|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="𝐒𝐤𝐢𝐩",
+                text="sᴋɪᴘ",
                 callback_data=f"ADMIN Skip|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="𝐒𝐭𝐨𝐩",
+                text="sᴛᴏᴘ",
                 callback_data=f"ADMIN Stop|{chat_id}",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="➕ ᴩʟᴀʏʟɪsᴛ ➕",
+                text="💖 ᴩʟᴀʏʟɪsᴛ 💖",
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
@@ -192,25 +192,25 @@ def telegram_markup(_, videoid, chat_id):
     buttons = [
          [
             InlineKeyboardButton(
-                text="𝐏𝐚𝐮𝐬𝐞",
+                text="ᴘᴀᴜsᴇ",
                 callback_data=f"ADMIN Pause|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="𝐑𝐞𝐬𝐮𝐦𝐞",
+                text="ʀᴇsᴜᴍᴇ",
                 callback_data=f"ADMIN Resume|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="𝐒𝐤𝐢𝐩",
+                text="sᴋɪᴘ",
                 callback_data=f"ADMIN Skip|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="𝐒𝐭𝐨𝐩",
+                text="sᴛᴏᴘ",
                 callback_data=f"ADMIN Stop|{chat_id}",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="➕ ᴩʟᴀʏʟɪsᴛ ➕",
+                text="💖 ᴩʟᴀʏʟɪsᴛ 💖",
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
@@ -357,25 +357,25 @@ def queue_markup(_, videoid, chat_id):
     buttons = [
          [
             InlineKeyboardButton(
-                text="𝐏𝐚𝐮𝐬𝐞",
+                text="ᴘᴀᴜsᴇ",
                 callback_data=f"ADMIN Pause|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="𝐑𝐞𝐬𝐮𝐦𝐞",
+                text="ʀᴇsᴜᴍᴇ",
                 callback_data=f"ADMIN Resume|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="𝐒𝐤𝐢𝐩",
+                text="sᴋɪᴘ",
                 callback_data=f"ADMIN Skip|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="𝐒𝐭𝐨𝐩",
+                text="sᴛᴏᴘ",
                 callback_data=f"ADMIN Stop|{chat_id}",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="➕ ᴩʟᴀʏʟɪsᴛ ➕",
+                text="💖 ᴩʟᴀʏʟɪsᴛ 💖",
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
