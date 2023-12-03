@@ -31,13 +31,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="💖Ꮥʜꫝʟɪɴɪ💖",
-                url=f"https://t.me/Shalini_shalu_69",
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text="🧐ʜᴇʟᴘ🧐", callback_data="settings_back_helper"
+                text="✭ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs✭", callback_data="settings_back_helper"
             )
         ],
         [
@@ -45,12 +39,12 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="✭ ᴜᴘᴅᴀᴛᴇs ✭", url=config.SUPPORT_CHANNEL
             ),
             InlineKeyboardButton(
-                text="✭ 𝐌𝐮𝐬𝐢𝐜 𝐋𝐨𝐯𝐞𝐫𝐬 ✭", url=config.SUPPORT_GROUP
+                text="✭ sᴜᴘᴘᴏʀᴛ ✭", url=config.SUPPORT_GROUP
             )
         ],
         [
             InlineKeyboardButton(
-                text="✮ 𝐀𝐧𝐢𝐦𝐞 𝐋𝐨𝐯𝐞𝐫𝐬 ✮", url=f"https://t.me/ShaliniMusicBotSh"
+                text="✮💞 ᴍᴀɪɴᴛᴀɪɴᴇʀ 💞✮", url=f"https://t.me/Shalini_shalu_69"
             )
         ]
      ]
