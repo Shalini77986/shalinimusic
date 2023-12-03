@@ -64,7 +64,7 @@ clean = {}
 autoclean = []
 ############################
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/11571bb43ae7dde935a87.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/b662f00ec46834692c558.jpg")
 PING_IMG_URL = getenv("PING_IMG_URL", "https://telegra.ph/file/48a84e0bf6223ce724632.jpg")
 
 PLAYLIST_IMG_URL = "https://telegra.ph/file/f195293a52dafc9976457.jpg"
@@ -108,4 +108,4 @@ if PING_IMG_URL:
 if START_IMG_URL:
     if START_IMG_URL != "SankiMusic/resource/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://telegra.ph/file/11571bb43ae7dde935a87.jpg"
+            START_IMG_URL = "https://telegra.ph/file/b662f00ec46834692c558.jpg"
