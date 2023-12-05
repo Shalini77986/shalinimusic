@@ -64,20 +64,20 @@ clean = {}
 autoclean = []
 ############################
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/b662f00ec46834692c558.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/af122097d5d73724aad2f.jpg")
 PING_IMG_URL = getenv("PING_IMG_URL", "https://telegra.ph/file/48a84e0bf6223ce724632.jpg")
 
-PLAYLIST_IMG_URL = "https://telegra.ph/file/f195293a52dafc9976457.jpg"
-GLOBAL_IMG_URL = "https://telegra.ph/file/93e7a0e36c2582c917a5d.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/22705f451bebc91c6e070.jpg"
+GLOBAL_IMG_URL = "https://telegra.ph/file/a28dbc0fd7934a0bcb85e.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/4a6d9f4f3c3af2870451e.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/93e7a0e36c2582c917a5d.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/3917cabe542810b8fbd3a.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/a28dbc0fd7934a0bcb85e.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/a28dbc0fd7934a0bcb85e.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/a28dbc0fd7934a0bcb85e.jpg"
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/3917cabe542810b8fbd3a.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/a28dbc0fd7934a0bcb85e.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/a28dbc0fd7934a0bcb85e.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/a28dbc0fd7934a0bcb85e.jpg"
 
 
 def time_to_seconds(time):
@@ -108,4 +108,4 @@ if PING_IMG_URL:
 if START_IMG_URL:
     if START_IMG_URL != "SankiMusic/resource/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://telegra.ph/file/b662f00ec46834692c558.jpg"
+            START_IMG_URL = "https://telegra.ph/file/af122097d5d73724aad2f.jpg"
