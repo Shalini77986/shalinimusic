@@ -8,7 +8,7 @@ import asyncio
 import time
 from SankiMusic import app
 import string
-from strings import get_command
+from SankiMusic.utilities.strings import get_command
 
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
