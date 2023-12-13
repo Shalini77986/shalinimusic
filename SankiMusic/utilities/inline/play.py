@@ -67,7 +67,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             ),
             InlineKeyboardButton(
                 text="💞ᴍᴀɪɴᴛᴀɪɴᴇʀ💞",
-                url=f"https://t.me/shalini_shalu_69",
+                url=f"tg://openmessage?user_id=6910477574",
             )
        ],
         [
@@ -137,7 +137,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
             ),
             InlineKeyboardButton(
                 text="💞ᴍᴀɪɴᴛᴀɪɴᴇʀ💞",
-                url=f"https://t.me/shalini_shalu_69",
+                url=f"tg://openmessage?user_id=6910477574",
             )
        ],
         [
@@ -176,7 +176,7 @@ def stream_markup(_, videoid, chat_id):
             ),
             InlineKeyboardButton(
                 text="💞ᴍᴀɪɴᴛᴀɪɴᴇʀ💞",
-                url=f"https://t.me/shalini_shalu_69",
+                url=f"tg://openmessage?user_id=6910477574",
             )
        ],
         [
@@ -215,7 +215,7 @@ def telegram_markup(_, videoid, chat_id):
             ),
             InlineKeyboardButton(
                 text="💞ᴍᴀɪɴᴛᴀɪɴᴇʀ💞",
-                url=f"https://t.me/shalini_shalu_69",
+                url=f"tg://openmessage?user_id=6910477574",
             )
        ],
         [
@@ -380,7 +380,7 @@ def queue_markup(_, videoid, chat_id):
             ),
             InlineKeyboardButton(
                 text="💞ᴍᴀɪɴᴛᴀɪɴᴇʀ💞",
-                url=f"https://t.me/shalini_shalu_69",
+                url=f"tg://openmessage?user_id=6910477574",
             )
        ],
         [
